@@ -1,0 +1,20 @@
+.header__time-text {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(80, 80, 80);
+    text-align: center;
+}
+@media(min-width: 1860px) {
+    .header__time-text {
+        font-size: 16px;
+    }
+}
+@media(min-width: 1540px) and (max-width: 1859px) {
+    .header__time-text {
+        font-size: 14px;
+    }
+}
+@media(min-width: 360px) and (max-width: 479px) {
+    .header__time-text {
+        font-size: 12px;
+    }
+}

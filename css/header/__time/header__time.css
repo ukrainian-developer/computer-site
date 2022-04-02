@@ -1,0 +1,21 @@
+.header__time {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media(min-width: 1860px) {
+    .header__time {
+        width: 498px;
+    }
+}
+@media(min-width: 1540px) and (max-width: 1859px) {
+    .header__time {
+        width: 420px;
+    }
+}
+@media(min-width: 360px) and (max-width: 480px) {
+    .header__time {
+        width: 300px;
+        margin: 0 auto;
+    }
+}

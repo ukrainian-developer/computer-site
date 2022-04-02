@@ -1,0 +1,34 @@
+.header__sign-in {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image:linear-gradient(135deg, rgb(204, 153, 255), rgb(89, 0, 179));
+    border: none;
+}
+@media(min-width: 1860px) {
+    .header__sign-in {
+        width: 183px;
+        height: 44px;
+        font-size: 16px;
+        line-height: 44px;
+        border-radius: 22px;
+    }
+}
+@media(min-width: 1540px) and (max-width: 1859px) {
+    .header__sign-in {
+        width: 150px;
+        height: 38px;
+        font-size: 14px;
+        line-height: 38px;
+        border-radius: 19px;
+    }
+}
+@media(min-width: 360px) and (max-width: 479px) {
+    .header__sign-in {
+        width: 160px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 40px;
+        border-radius: 20px;
+    }
+}

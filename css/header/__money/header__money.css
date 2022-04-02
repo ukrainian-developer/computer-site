@@ -1,0 +1,22 @@
+.header__money {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media(min-width: 1860px) {
+    .header__money {
+        width: 714px;
+        height: 67px;
+    }
+}
+@media(min-width: 1540px) and (max-width: 1859px) {
+    .header__money {
+        width: 640px;
+        height: 60px;
+    }
+}
+@media(min-width: 360px) and (max-width: 479px) {
+    .header__money {
+        width: 100%;
+    }
+}

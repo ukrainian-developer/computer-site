@@ -1,0 +1,24 @@
+.header__time-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+}
+@media(min-width: 1860px) {
+    .header__time-block {
+        width: 102px;
+        height: 112px;
+    }
+}
+@media(min-width: 1540px) and (max-width: 1859px) {
+    .header__time-block {
+        width: 80px;
+        height: 88px;
+    }
+}
+@media(min-width: 360px) and (max-width: 479px) {
+    .header__time-block {
+        width: 55px;
+        height: 61px;
+    }
+}

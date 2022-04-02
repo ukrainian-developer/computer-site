@@ -1,0 +1,20 @@
+.header__bottom-block {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(20, 20, 20);
+}
+@media(min-width: 1860px) {
+    .header__bottom-block {
+        height: 130px;
+    }
+}
+@media(min-width: 1540px) and (max-width: 1859px) {
+    .header__bottom-block {
+        height: 115px;
+    }
+}
+@media(min-width: 360px) and (max-width: 479px) {
+    .header__bottom-block {
+        height: 270px;
+    }
+}

@@ -1,0 +1,24 @@
+.header__earned {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(80, 80, 80);
+}
+@media(min-width: 1860px) {
+    .header__earned {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+@media(min-width: 1540px) and (max-width: 1859px) {
+    .header__earned {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+@media(min-width: 360px) and (max-width: 479px) {
+    .header__earned {
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    }
+}

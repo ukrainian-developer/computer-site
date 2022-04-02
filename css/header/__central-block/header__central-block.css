@@ -1,0 +1,8 @@
+.header__central-block {
+    padding-left: 12%;
+}
+@media(min-width: 360px) and (max-width: 479px) {
+    .header__central-block {
+        padding: 0 15px;
+    }
+}

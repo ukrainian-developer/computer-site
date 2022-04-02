@@ -1,0 +1,28 @@
+.header__number-of-students {
+    display: flex;
+    justify-content: space-between;
+}
+@media(min-width: 1860px) {
+    .header__number-of-students {
+        width: 251px;
+    }
+    .header__number-of-students:first-child {
+        margin-bottom: 20px;
+    }
+}
+@media(min-width: 1540px) and (max-width: 1859px) {
+    .header__number-of-students {
+        width: 220px;
+    }
+    .header__number-of-students:first-child {
+        margin-bottom: 17px;
+    }
+}
+@media(min-width: 360px) and (max-width: 479px) {
+    .header__number-of-students {
+        width: 250px;
+    }
+    .header__number-of-students:first-child {
+        margin-bottom: 18px;
+    }
+}

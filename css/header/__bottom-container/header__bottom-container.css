@@ -1,0 +1,22 @@
+.header__bottom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media(min-width: 1860px) {
+    .header__bottom-container {
+        width: 1296px
+    }
+}
+@media(min-width: 1540px) and (max-width: 1859px) {
+    .header__bottom-container {
+        width: 1140px;
+    }
+}
+@media(min-width: 360px) and (max-width: 479px) {
+    .header__bottom-container {
+        flex-direction: column-reverse;
+        width: 300px;
+        padding: 20px;
+    }
+}

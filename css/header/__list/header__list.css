@@ -1,0 +1,15 @@
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+@media(min-width: 1860px) {
+    .header__list {
+        width: 745px;
+    }
+}
+@media(min-width: 1540px) and (max-width: 1859px) {
+    .header__list {
+        width: 650px;
+    }
+}
